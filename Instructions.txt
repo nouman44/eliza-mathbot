@@ -1,0 +1,31 @@
+Eliza is a computer program which can do logical operations and conversions.
+It can perform various operations but there are some things you need to remember while working with Eliza:
+
+1) For writing operand in words upto 100, use a dash to separate them.
+   e.g for 44 write 'forty-four'
+       for 99 write 'ninety-nine'
+       for 68226 write 'sixty-eight thousand two hundred and twenty-six'
+
+2) The limit for writing operands in words is upto 99999 i.e. "ninety-nine thousand nine hundred and ninety-nine".
+
+3) You can write the operand in words in a number of ways
+   e.g you can write 1101 as 'one thousand one hundred and one' and also as'eleven hundred and one'
+       you can write 4844 as 'four thousand eight hundred and forty-four' and also as'forty-eight hundred and forty-four'
+
+4) When writing operands in words, please make sure you write them in small case only. Dont write them in capital.
+   And SEPARATE two operands by a 'AND' (in capital).
+   e.g. "What is the logical & of one thousand one hundred and one AND one hundred and one'
+
+5) When writing operands in words, please make sure you write the operator BEFORE the operands
+   e.g. "What is the logical OR of one thousand one hundred and one AND eleven'
+
+6) You can use both symbols and words for operators. Words for operators are not affected by case size
+   For AND you can use: 'and', 'And', 'AND', '&'
+   For OR you can use: 'or', 'Or', 'OR', '|'
+   For XOR you can use: 'xor', 'XOR', 'Xor', '^'
+   For NOT you can use: 'not', 'NOT, 'Not', '!'
+   To convert to binary you can use: 'bit', 'Bit', 'BIT', 'binary', 'Binary', 'BINARY'
+   To convert to decimal you can use: 'decimal', 'Decimal', 'DECIMAL'
+
+7) To stop Eliza write 'end', 'End' or 'END'
+
